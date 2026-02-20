@@ -28,19 +28,11 @@ pip install -r requirements.txt
 
 ## Настройка окружения
 
-1. Скопируйте шаблон:
-
-```bash
-copy .env.example .env
-```
-
-2. Укажите токен бота в `.env`:
+1. Укажите токен бота в `.env`:
 
 ```env
 BOT_TOKEN=your_telegram_bot_token_here
 ```
-
-> Файл `.env` не должен попадать в Git.
 
 ## Запуск
 
